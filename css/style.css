@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&subset=cyrillic');
+
+* {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url('../image/618863112_w640_h640_879893255.jpg') ;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 200px rgba(0,0,0,3);
+    background: linear-gradient(to bottom, #228B22, #ffffff, #228B22);
+    min-height: 100vh;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+}
+.menu {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px #999999 solid;
+    border-bottom: 1px #999999 solid;
+}
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.Login {
+    text-align: right;
+    width: 30%;
+    margin: 0 auto;
+    background: #228B22;
+    padding: 15px;
+   }
+.registration {
+    text-align: left;
+    width: 50%;
+    background: beige;
+    margin: 0 auto;
+    padding: 15px;
+}
+.home_photo {
+    float: none;
+    width: 100%;
+}
+.football{
+
+}
+.Football_photo {
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: #333333;
+    border-top: 1px #999999 solid;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.Championat {
+    width: 400px;
+    height: 70px;
+    float: left;
+    margin: 30px;
+
+}
+.Championat a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    margin: 15px;
+}
